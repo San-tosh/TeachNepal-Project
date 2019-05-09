@@ -51,61 +51,20 @@ html,body{
     padding-top:0.5px; 
 }
 
-
-.content1 input[type=text], select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border:none;
-    border-radius:20px;
-    box-sizing: border-box;
-    background-color:rgb(32,32,32);
-    color:white;
-}
-
-.content1 input[type=submit] {
-    width: 100%;
-    height:50px;
-    background-color:darkslateblue;
-    color: white;
-   
-    margin: 8px 0;
-    border: none;
-    
-    cursor: pointer;
-      border-radius:20px;
-     display: block;
-    width: 210px;
+@media screen and (max-width: 600px) {
+  .content1 .header-title{
+    font-size: 25px;
+  }
+    .content1 .sub-header{
+        font-size:15px;
+    }
+    .content1 button{
+      width: 100px;
     height: 30px;
-    padding-top:0.5px; 
-}
-
-input[type=submit]:hover {
-    background-color:darkslateblue;
-}
-
-.content1 form {
-    border-radius: 1px;
-    background-color:rgb(26,26,26);
-    padding: 20px;
-    width: 250px;
-}
-.content1{
-   
-   
-}
-@media only screen and (max-width: 808px) {
-    .content1 .side{
-        display: none;
-        visibility:hidden;
-       
     }
-    .content1 form{
-        margin-left:20px;
-    }
-    
-    
+}
+.image-caption{
+    margin: auto;
 }
 .side h2{
     margin-bottom: 15px;
@@ -118,7 +77,6 @@ input[type=submit]:hover {
 }
 .parallax1{
     background-image: url(img/light-2401495_1280.jpg);
-    height:35vw;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -127,9 +85,6 @@ input[type=submit]:hover {
 }
 .parallax1 h1{
     padding-top: 10%;
-   
-   
-    
 }
 .parallax1  p{
     margin: auto;
@@ -220,13 +175,13 @@ background-color:#0198a9;
       color: #4586ff; }
 .services {
     color:white;
-    background-color:grey;
+    background-color:#0198a9;
   margin-bottom: 30px;
   position: relative;
   padding: 10px 0;
   z-index: 0;
   display: block;
-  bordeR: 1px solid #e6e6e6;
+  border: 1px solid #e6e6e6;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -234,16 +189,19 @@ background-color:#0198a9;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   border-radius: 4px; }
+
   .services .icon {
     margin: 0 auto;
     margin-bottom: 10px;
     display: block; }
+
     .services .icon i {
       font-size: 50px;
       color: #000;
       -webkit-transition: 0.3s;
       -o-transition: 0.3s;
       transition: 0.3s; }
+
   .services .desc {
       
     padding: 0 5px; 
@@ -252,11 +210,12 @@ background-color:#0198a9;
       font-size: 16px;
       font-weight: 400;
       text-transform: uppercase; }
+
   .services:hover {
-    -webkit-box-shadow: 0px 16px 78px -34px rgba(0, 0, 0, 0.52);
-    -moz-box-shadow: 0px 16px 78px -34px rgba(0, 0, 0, 0.52);
     box-shadow: 0px 16px 78px -34px rgba(0, 0, 0, 0.52);
-    margin-top: -5px; }
+    margin-top: -5px;
+    color:white;
+text-decoration: none;}
 
     
 
